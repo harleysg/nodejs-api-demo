@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/HarleySG/node-api/issues"
   },
-  "homepage": "https://github.com/HarleySG/node-api#readme"
+  "homepage": "https://github.com/HarleySG/node-api#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
 }
