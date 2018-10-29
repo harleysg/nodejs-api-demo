@@ -1,0 +1,31 @@
+{
+  "name": "node-api-demo",
+  "version": "1.0.0",
+  "description": "desarrollo de un api en node como practica",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./serve.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarleySG/node-api.git"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "demo"
+  ],
+  "author": "Harley Santos Garzón",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HarleySG/node-api/issues"
+  },
+  "homepage": "https://github.com/HarleySG/node-api#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}

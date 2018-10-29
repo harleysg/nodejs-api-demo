@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./src/app.css" />
+</head>
+
+<body>
+    <main class="o-main" id="app">
+        <header class="o-header">
+            <div class="o-wrapper">
+                <form class="c-form">
+                    <div>
+                        <input placeholder="write a new word" class="c-form__input" type="text" id="newWord" required>
+                        <input placeholder="Define a new score" class="c-form__input" type="number" id="newScore"
+                            required>
+                    </div>
+                    <div>
+                        <button class="c-btn c-form__button" id="sendData">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </header>
+        <div class="o-wrapper" id="elmDataList"></div>
+    </main>
+    <script src="./src/app.js"></script>
+</body>
+
+</html>
