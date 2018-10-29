@@ -10,7 +10,23 @@
 </head>
 
 <body>
-    <main id="app"></main>
+    <main class="o-main" id="app">
+        <header class="o-header">
+            <div class="o-wrapper">
+                <form class="c-form">
+                    <div>
+                        <input placeholder="write a new word" class="c-form__input" type="text" id="newWord" required>
+                        <input placeholder="Define a new score" class="c-form__input" type="number" id="newScore"
+                            required>
+                    </div>
+                    <div>
+                        <button class="c-btn c-form__button" id="sendData">SEND</button>
+                    </div>
+                </form>
+            </div>
+        </header>
+        <div class="o-wrapper" id="elmDataList"></div>
+    </main>
     <script src="./src/app.js"></script>
 </body>
 
