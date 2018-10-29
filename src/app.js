@@ -43,7 +43,7 @@ function modalMessage(message) {
     setTimeout(() => {
         document.getElementById('app').removeChild(modalResponse);
         location.reload();
-    }, 1500);
+    }, 750);
 }
 function queryGetAllData() {
     fetch('all', { headers: { 'Content-Type': 'application/json' } })
